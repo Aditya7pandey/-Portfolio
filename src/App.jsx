@@ -2,13 +2,12 @@ import {useSelector } from "react-redux";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Header from "./components/header";
 import Navigation from "./components/Navigation";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import WorkExperience from "./components/WorkExperience";
 import "./index.css";
-import Profile from "./components/Profile";
+import Header from "./components/header";
 
 function App() {
   const isToggled = useSelector((state) => state.toggle.isToggled);
