@@ -6,8 +6,8 @@ import Navigation from "./components/Navigation";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import WorkExperience from "./components/WorkExperience";
+import Header from "./components/Header";
 import "./index.css";
-import Header from "./components/header";
 
 function App() {
   const isToggled = useSelector((state) => state.toggle.isToggled);
