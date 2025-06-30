@@ -17,7 +17,7 @@ function Header() {
               </p>
             </div>
             <div className="rounded-full overflow-auto">
-              <img src="src/assets/profile_image.jpeg" />
+              <img src="/profile_image.jpeg" />
             </div>
           </div>
         </div>
